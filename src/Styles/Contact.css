@@ -1,0 +1,26 @@
+.contact-page{
+    min-height:100vh;
+    background:rgb(212, 211, 211);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:60px;
+}
+.contact-page h1{
+    color:rgb(184, 41, 41);
+    margin-bottom:40px;
+}
+.contact-card{
+    background:white;
+    width:500px;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+.contact-card h3{
+    color:rgb(177, 34, 34);
+    margin-top:20px;
+}
+.contact-card p{
+    margin-bottom:20px;
+}

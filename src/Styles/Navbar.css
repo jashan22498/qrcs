@@ -1,0 +1,39 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 60px;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+.logo h2{
+    color:rgb(218, 40, 40);
+    font-size:30px;
+}
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+.nav-links li{
+    cursor:pointer;
+    font-size:18px;
+    font-weight:500;
+    transition:.3s;
+}
+.nav-links li:hover{
+color:rgb(217, 39, 39);
+}
+
+.login-btn{
+    background:rgb(219, 32, 32);
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+}
+.login-btn:hover{
+background:rgb(219, 41, 41);
+}
